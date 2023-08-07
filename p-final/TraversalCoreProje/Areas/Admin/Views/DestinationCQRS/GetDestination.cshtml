@@ -1,0 +1,50 @@
+﻿@model GetDestinationByIDQueryResult
+@{
+    ViewData["Title"] = "GetDestination";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Seyehat Noktaları Düzenleme</h2>
+<form method="post">
+    <input type="hidden" asp-for="DestinationID" />
+    <label>Seyehat Şehri Adı</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Seyehat Fiyatı</label>
+    <input type="text" asp-for="Price" class="form-control" />
+    <br />
+    <label>Seyehat Süresi</label>
+    <input type="text" asp-for="DayNight" class="form-control" />
+    <br />
+    <label>Aktif/Pasif</label>
+    <input type="text" asp-for="Status" class="form-control" />
+    <br />
+    <label>Seyehat Rehberi ID</label>
+    <input type="text" asp-for="GuideID" class="form-control" />
+    <br />
+    <label>Seyehat Tarihi</label>
+    <input type="text" asp-for="Date" class="form-control" />
+    <br />
+    <label>Seyehat Kapasitesi</label>
+    <input type="text" asp-for="Capacity" class="form-control" />
+    <br />
+    <label>Seyehat Açıklaması</label>
+    <input type="text" asp-for="Description" class="form-control" />
+    <br />
+    <label>Seyehat Paragrafı-1</label>
+    <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
+    <br />
+    <label>Seyehat paragrafı-2</label>
+    <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
+    <br />
+    <label>Seyehat Kapak Fotoğrafı Adresi</label>
+    <input type="text" asp-for="Image" class="form-control" />
+    <br />
+    <label>Seyehat İçerik Fotoğrafı Adresi</label>
+    <input type="text" asp-for="Image2" class="form-control" />
+    <br />
+    <label>Seyehat Duvar Fotoğrafı Adresi</label>
+    <input type="text" asp-for="CoverImage" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Lokasyon Bilgilerini Güncelle</button>
+</form>
+

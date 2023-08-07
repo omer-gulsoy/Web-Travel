@@ -1,0 +1,34 @@
+﻿@model GetGuideByIDQueryResult
+@{
+    ViewData["Title"] = "GetGuides";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Seyehat Rehberleri Bilgileri Düzenleme Sayfası</h2>
+<form method="post">
+	<label>Seyehat Rehberi ID</label>
+    <input type="hidden" asp-for="GuideID" />
+	<br /> 
+	<label>Seyehat Rehberi İsmi</label>
+	<input type="text" class="form-control" asp-for="Name" />
+	<br />
+	<label>Seyehat Rehberi Rotası</label>
+	<input type="text" class="form-control" asp-for="Description" placeholder="Örn: ... Rehberimiz"/>
+	<br />
+	<label>Seyehat Rehberi Bölgesi</label>
+	<input type="text" class="form-control" asp-for="Description2" placeholder="Örn: Traversal ... Rehberi"/>
+	<br />
+	<label>Seyehat Rehberi Twitter Adresi</label>
+	<input type="text" class="form-control" asp-for="TwitterUrl" />
+	<br />
+	<label>Seyehat Rehberi Instagram Adresi</label>
+	<input type="text" class="form-control" asp-for="InstagramUrl" />
+	<br />
+	<label>Seyehat Rehberi Fotoğraf Adresi</label>
+	<input type="text" class="form-control" asp-for="Image" placeholder="Tavsiye edilen Boyut: 1:1"/>
+	<br />
+	<label>Seyehat Rehberi Fotoğraf-2 Adresi</label>
+	<input type="text" class="form-control" asp-for="GuideListImage" placeholder="Tavsiye Edilen Boyut: 4:5" />
+	<br />
+    <button class="btn btn-outline-primary">Bilgileri Güncelle</button>
+</form>
+

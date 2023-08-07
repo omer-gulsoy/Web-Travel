@@ -1,0 +1,61 @@
+﻿@using EntityLayer.Concrete
+@model List<Destination>
+@{
+    ViewData["Title"] = "GetCitiesSearchByName";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div><div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Tur Rotası Arama Sayfası</h4>
+                <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+            </div>
+            <div class="card-content collapse show">
+                <div class="card-body">
+                    <p class="card-text">Traversal'ın sunduğu seyehat paketleri.</p>
+
+                    <form asp-action="GetCitiesSearchByName" method="get" asp-area="Member">
+                        <div>
+                            <p>
+                                    <b>Lütfen Aranacak Şehri Giriniz:</b> <input type="text" name="searchString" class="form-control" value="@ViewData["CurrentFilter"]" />
+                                <br />
+                                <input type="submit" value="Şehir Ara" class="btn btn-outline-dark" />
+                            </p>
+                        </div>
+                    </form>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Seyehat ID</th>
+                                    <th>Seyehat Şehri</th>
+                                    <th>Seyehat Süresi</th>
+                                    <th>Seyehat Kapasitesi</th>
+                                    <th>Seyehat Fiyatı</th>
+                                    <th>Seyehat Detayları</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                    <tr>
+                        <td>@item.DestinationID</td>
+                        <td>@item.City</td>
+                        <td>@item.DayNight</td>
+                        <td>@item.Capacity</td>
+                        <td>@item.Price $</td>
+                        <td><a href="/Destination/DestinationDetails/@item.DestinationID" class="btn btn-outline-info">Detaylar</a></td>
+                    </tr>
+}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+    </div>
+</div>

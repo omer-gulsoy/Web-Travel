@@ -1,0 +1,18 @@
+﻿.tarz1 {
+    background: url(/my_import//background//w1.jpg) no-repeat center;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.container{
+    height:500px;
+}

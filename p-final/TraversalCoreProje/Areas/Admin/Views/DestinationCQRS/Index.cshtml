@@ -1,0 +1,35 @@
+﻿@model List<GetAllDestinationQueryResult>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+<h2>Seyehat Noktaları Bilgileri</h2>
+<br />
+<table class="table table-bordered" style="text-align:center">
+	<tr>
+		<th style="width:5px">Rota ID</th>
+		<th>Seyehat Şehri</th>
+		<th>Seyehat Süresi</th>
+		<th>Seyehat Tarihi</th>
+		<th>Seyehat Fiyatı</th>
+		<th>Seyehati Sil</th>
+		<th>Seyehati Güncelle</th>
+	</tr>
+	@foreach (var item in Model)
+	{
+		count++;
+		<tr>
+			<td>@item.id</td>
+			<td>@item.city</td>
+			<td>@item.daynight</td>
+			<td>@(((DateTime)item.date).ToString("dd-MMM-yyyy"))</td>
+			<td>@item.price $</td>
+
+			<td><a href="/Admin/DestinationCQRS/DeleteDestination/@item.id" class="btn btn-outline-danger">Sil</a></td>
+			<td><a href="/Admin/DestinationCQRS/GetDestination/@item.id" class="btn btn-outline-success">Güncelle</a></td>
+		</tr>
+	}
+</table>
+<a href="/Admin/DestinationCQRS/AddDestination/" class="btn btn-outline-primary">Yeni Tur Rotası Girişi</a>
+

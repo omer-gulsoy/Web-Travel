@@ -1,0 +1,60 @@
+﻿@*@using EntityLayer.Concrete
+@model List<Destination>*@
+
+<section class="w3l-main-slider" id="home">
+	<div class="banner-content">
+		<div id="demo-1"
+			 data-zs-src='["/Traversal-Liberty/assets/images/banner4.jpg","/Traversal-Liberty/assets/images/banner2.jpg", "/Traversal-Liberty/assets/images/banner5.jpg", "/Traversal-Liberty/assets/images/banner6.jpg", "/Traversal-Liberty/assets/images/banner3.jpg", "/Traversal-Liberty/assets/images/banner1.jpg", "/Traversal-Liberty/assets/images/banner7.jpg", "/Traversal-Liberty/assets/images/banner8.jpg"]'
+			 data-zs-overlay="dots">
+			<div class="demo-inner-content">
+				<div class="container">
+					<div class="banner-infhny">
+						<h3>Seyehat Et, Bul, Keşfet...</h3>
+						<h6 class="mb-3">Hayalinizdeki seyehat için doğru adrestesiniz.</h6>
+						<div class="flex-wrap search-wthree-field mt-md-5 mt-4">
+							<form action="#" method="post" class="booking-form">
+								<div class="row book-form">
+									<div class="form-input col-md-4 mt-md-0 mt-3">
+										<select name="selectpicker" class="selectpicker">
+											<option value="">Rotalar</option>
+
+
+@*											@foreach (var item in Model)
+											{
+												<option value="africa">@item.City</option>
+											}*@
+
+											
+											<option value="america">Kuzey Amerika</option>
+											<option value="asia">Doğu Asya</option>
+											<option value="eastern-europe">Doğu Avrupa</option>
+											<option value="europe">Orta ve Batı Avrupa</option>
+											<option value="south-america">Güney Amerika</option>
+											<option value="south-america">Orta Doğu</option>
+											
+
+										</select>
+
+
+									</div>
+									<div class="form-input col-md-4 mt-md-0 mt-3">
+
+										<input type="date" name="" placeholder="Date" required="">
+									</div>
+									<div class="bottom-btn col-md-4 mt-md-0 mt-3">
+										<button class="btn btn-style btn-secondary">
+											<a href="~/Destination/Index">
+											<span class="fa fa-search mr-3"
+													  aria-hidden="true" style="color:aliceblue"></span><span style="color:aliceblue">Rota Ara</span>
+											</a>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

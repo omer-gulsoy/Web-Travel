@@ -1,0 +1,93 @@
+﻿@model TraversalCoreProje.Models.UserRegisterViewModel
+@{
+	Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+	<title>Traversal | Kaydol </title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords"
+		  content="Invent Signup Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link rel="stylesheet" href="~/my_import/css/sign_up.css" type="text/css" media="all" />
+</head>
+<body>
+	<section class="w3l-login-6">
+		<div class="login-hny">
+			<div class="form-content">
+				<div class="form-right">
+					<div class="overlay">
+						<div class="grid-info-form">
+							<h5>🌍 <b>Aramıza Hoşgeldiniz</b> 🌍</h5>
+							<h3><b>Seyehat Et, Bul, Keşfet...</b></h3>
+							<p>
+								Keşfetmenin heyecan verici dünyasına hoş geldiniz!<br />
+								Biz, seyahat tutkunları için tasarlanmış kısa seyahat sitesiyiz. Amacımız, sizi en güzel ve unutulmaz yerlere götürmek, yeni kültürler keşfetmenizi sağlamak ve anılarınızı dolu dolu yaşamanıza yardımcı olmaktır.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="form-left">
+					<div class="middle">
+						<h1 class="navbar-brand mr-lg-5">Hesap Oluşturun</h1>
+						<p>Hemen kayıt olun, seyahat deneyimlerine katılın!</p>
+					</div>
+					<form method="post" class="signin-form">
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>İsminiz</b></label>
+							<input type="text" asp-for="Name" />
+							<span asp-validation-for="Name" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>Soyisminiz</b></label>
+							<input type="text" asp-for="Surname" />
+							<span asp-validation-for="Surname" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>Kullanıcı İsminiz</b></label>
+							<input type="text" asp-for="Username" />
+							<span asp-validation-for="Username" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>E-Posta Adresiniz</b></label>
+							<input type="email" asp-for="Mail" />
+							<span asp-validation-for="Mail" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>Parolanız</b></label>
+							<input type="password" asp-for="Password" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label style="color:#3e3e3e"><b>Parola Tekrar</b></label>
+							<input type="password" asp-for="ConfirmPassword" />
+							<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+						</div>
+						<div class="text-danger" asp-validation-summary="ModelOnly">
+						</div>
+						<label class="container">
+							<a href="#" style="color:#3e3e3e">Şartları</a><a style="color:grey"> okudum, kabul ediyorum.</a>
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<button class="btn" style="background-color:#ff1654">Hesap Oluştur</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿@model TraversalCoreProje.Areas.Member.Models.UserEditViewModel
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Profil Güncelleme Sayfası</h4>
+				<a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<p class="card-text">Profil ile ilgili bilgilerinizi bu sayfadan güncelleyebilirsiniz</p>
+					<form method="post" enctype="multipart/form-data">
+						@Html.Label("İsminiz")
+						<input type="text" asp-for="name" class="form-control" />
+						<br />
+						@Html.Label("Soyisminiz")
+						<input type="text" asp-for="surname" class="form-control" />
+						<br />
+						@Html.Label("E-Posta Adresiniz")
+						<input type="text" asp-for="mail" class="form-control" />
+						<br />
+						@Html.Label("Parolanız")
+						<input type="text" asp-for="password" class="form-control" />
+						<br />
+						@Html.Label("Parola Tekrar")
+						<input type="text" asp-for="confirmpassword" class="form-control" />
+						<br />
+						@Html.Label("Telefon Numarası")
+						<input type="text" asp-for="phonenumber" class="form-control" />
+						<br />
+						<div class="form-group">
+							<label>Resim Seçin</label><br />
+							<input type="file" asp-for="Image" />
+						</div>
+						<br />
+						<button class="btn btn-primary">Bilgilerimi Güncelle</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,33 @@
+﻿@model List<VisitorViewModel>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Api Ziyaretçi Listesi</h1>
+<br />
+<table class="table table-bordered">
+	<tr>
+		<th>#</th>
+		<th>İsim</th>
+		<th>Soyisim</th>
+		<th>İl</th>
+		<th>Ülke</th>
+		<th>E-Posta</th>
+		<th>Sil</th>
+		<th>Güncelle</th>
+	</tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<th>@item.VisitorID</th>
+			<td style="text-transform: capitalize;">@item.VisitorName</td>
+			<td style="text-transform: uppercase;">@item.VisitorSurname</td>
+			<td style="text-transform: capitalize;">@item.VisitorCity</td>
+			<td style="text-transform: uppercase;">@item.VisitorCountry</td>
+			<td>@item.Mail</td>
+			<td><a href="/Admin/VisitorApi/DeleteVisitor/@item.VisitorID/" class="btn btn-outline-danger">Sil</a></td>
+			<td><a href="/Admin/VisitorApi/UpdateVisitor/@item.VisitorID/" class="btn btn-outline-success">Güncelle</a></td>
+		</tr>
+	}
+</table>
+<a href="/Admin/VisitorApi/AddVisitor/" class="btn btn-outline-primary">Yeni Ziyaretçi Girişi</a>
