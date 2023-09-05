@@ -1,4 +1,4 @@
-# SeyehatSitesi
+# SeyahatSitesi
 Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
 
 
@@ -6,7 +6,7 @@ Genel Fonksiyonlar:
 
 Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini görebilir ve ilgi alanlarına göre seçim yapabilir.
 
-Seyehat Noktaları Hakkında Bilgi: Seyehat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
+Seyahat Noktaları Hakkında Bilgi: Seyahat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
 
 Özelleştirilmiş Gezi Planları: Kullanıcılar, istedikleri destinasyonları seçebilir ve tarihlerini, otel tercihlerini ve diğer seyahat detaylarını ayarlayarak kendi gezi planlarını oluşturabilir.
 
@@ -14,7 +14,7 @@ Yorumlar ve Değerlendirmeler: Kullanıcılar, daha önce bu destinasyonları zi
 
 Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezervasyonlarını görüntüleyebileceği bir kişisel sayfa oluşturabilir.
 
-Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyehat noktalarını ,seyehat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
+Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
 
 
 Kullanılan Diller:
