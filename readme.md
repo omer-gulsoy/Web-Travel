@@ -1,6 +1,7 @@
 # SeyehatSitesi
 Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
 
+
 Genel Fonksiyonlar:
 
 Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini görebilir ve ilgi alanlarına göre seçim yapabilir.
@@ -15,13 +16,16 @@ Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezerva
 
 Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyehat noktalarını ,seyehat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
 
+
 Kullanılan Diller:
 
 Frontend: HTML, CSS, JavaScript, SCSS
 Backend: C#
 Veritabanı: MS SQL
 
+
 Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
+
 
 Bu projeyi aşağıdaki oynatma listesinden faydalanarak geliştirdim:
 https://youtube.com/playlist?list=PLKnjBHu2xXNMK5MBogdXmsXVi3K_eEZT5
