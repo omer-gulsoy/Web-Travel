@@ -24,9 +24,9 @@ Genel Fonksiyonlar:
     
 Kullanılan Diller:
 
-    Frontend:   - HTML, 
-                - CSS,
-                - JavaScript,
+    Frontend:   - HTML
+                - CSS
+                - JavaScript
                 - SCSS
     
     Backend:    - C#
