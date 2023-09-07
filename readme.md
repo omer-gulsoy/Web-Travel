@@ -1,35 +1,41 @@
 # SeyahatSitesi
-Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
-
+Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını 
+özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine
+yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
 
 Genel Fonksiyonlar:
 
-  - Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini
+    - Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini 
     görebilir ve ilgi alanlarına göre seçim yapabilir.
 
-  - Seyahat Noktaları Hakkında Bilgi: Seyahat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
+    - Seyahat Noktaları Hakkında Bilgi: Seyahat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
 
-  - Özelleştirilmiş Gezi Planları: Kullanıcılar, istedikleri destinasyonları seçebilir ve tarihlerini, otel tercihlerini ve diğer seyahat detaylarını ayarlayarak kendi gezi planlarını oluşturabilir.
+    - Özelleştirilmiş Gezi Planları: Kullanıcılar, istedikleri destinasyonları seçebilir ve tarihlerini, otel tercihlerini ve 
+    diğer seyahat detaylarını ayarlayarak kendi gezi planlarını oluşturabilir.
 
-  - Yorumlar ve Değerlendirmeler: Kullanıcılar, daha önce bu destinasyonları ziyaret edenlerin yorumlarını okuyabilir ve destinasyonları değerlendirebilir.
+    - Yorumlar ve Değerlendirmeler: Kullanıcılar, daha önce bu destinasyonları ziyaret edenlerin yorumlarını okuyabilir ve 
+    destinasyonları değerlendirebilir.
 
-  - Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezervasyonlarını görüntüleyebileceği bir kişisel sayfa oluşturabilir.
+    - Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezervasyonlarını görüntüleyebileceği bir kişisel sayfa 
+    oluşturabilir.
 
-  - Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
-
-
+    - Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, 
+    sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
+    
 Kullanılan Diller:
 
-Frontend: HTML, CSS, JavaScript, SCSS
-Backend: C#
-Veritabanı: MS SQL
+    Frontend:   - HTML, 
+                - CSS,
+                - JavaScript,
+                - SCSS
+    
+    Backend:    - C#
 
+    Veritabanı: - MS SQL
 
 Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
 
-
-Bu projeyi aşağıdaki oynatma listesinden faydalanarak geliştirdim:
-https://youtube.com/playlist?list=PLKnjBHu2xXNMK5MBogdXmsXVi3K_eEZT5
+Projeye Ait Görseller:
 
 ![1](https://github.com/omer-gulsoy/SeyehatSitesi/assets/139320509/ef27f668-b14e-407e-9bd3-0d1db8394d1e)
 ![2](https://github.com/omer-gulsoy/SeyehatSitesi/assets/139320509/26e30149-a587-41b1-b28b-f01a4b31c131)
