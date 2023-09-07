@@ -4,17 +4,18 @@ Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelin
 
 Genel Fonksiyonlar:
 
-  Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini görebilir ve ilgi alanlarına göre seçim yapabilir.
-  
-  Seyahat Noktaları Hakkında Bilgi: Seyahat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
-  
-  Özelleştirilmiş Gezi Planları: Kullanıcılar, istedikleri destinasyonları seçebilir ve tarihlerini, otel tercihlerini ve diğer seyahat detaylarını ayarlayarak kendi gezi planlarını oluşturabilir.
-  
-  Yorumlar ve Değerlendirmeler: Kullanıcılar, daha önce bu destinasyonları ziyaret edenlerin yorumlarını okuyabilir ve destinasyonları değerlendirebilir.
-  
-  Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezervasyonlarını görüntüleyebileceği bir kişisel sayfa oluşturabilir.
-  
-  Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
+  - Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini
+    görebilir ve ilgi alanlarına göre seçim yapabilir.
+
+  - Seyahat Noktaları Hakkında Bilgi: Seyahat rehberleri tarafından yazılmış bilgilendirici metinlerden gezginler faydalanabilir.
+
+  - Özelleştirilmiş Gezi Planları: Kullanıcılar, istedikleri destinasyonları seçebilir ve tarihlerini, otel tercihlerini ve diğer seyahat detaylarını ayarlayarak kendi gezi planlarını oluşturabilir.
+
+  - Yorumlar ve Değerlendirmeler: Kullanıcılar, daha önce bu destinasyonları ziyaret edenlerin yorumlarını okuyabilir ve destinasyonları değerlendirebilir.
+
+  - Kullanıcı Sayfası: Kullanıcılar, seyahat geçmişini ve eğer varsa rezervasyonlarını görüntüleyebileceği bir kişisel sayfa oluşturabilir.
+
+  - Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
 
 
 Kullanılan Diller:
