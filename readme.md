@@ -1,8 +1,8 @@
 //en
 # TravelWebsite
-My Travel Website project, if implemented; users can explore different destinations around the world and plan their travel
+***My Travel Website project, if implemented; users can explore different destinations around the world and plan their travel
 It is a platform where people can customize and share their travel experiences. The aim of this project is to help travelers create unforgettable memories.
-To help and enable travel enthusiasts to share their experiences.
+To help and enable travel enthusiasts to share their experiences.***
 
 ### General Functions:
 
@@ -34,14 +34,18 @@ To help and enable travel enthusiasts to share their experiences.
 
     Veritabanı: - MS SQL
     
-    This project is a web application that aims to make travel planning easier for travelers and enable them to discover new places.
-    It will be developed and improved to provide travel enthusiasts with unforgettable experiences.
+> This project is a web application that aims to make travel planning easier for travelers and enable them to discover new places.
+It will be developed and improved to provide travel enthusiasts with unforgettable experiences.
+
+> The texts in the program are in Turkish.
+
+
 
 //tr
 # SeyahatSitesi
-Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını 
+***Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını 
 özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine
-yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
+yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.***
 
 ### Genel Fonksiyonlar:
 
@@ -73,10 +77,8 @@ yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağ
 
     Veritabanı: - MS SQL
 
-    Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. 
-    Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
-
-    Note: The texts in the program are in Turkish.
+> Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. 
+Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
 
 ### Images of the Project:
 
