@@ -1,5 +1,5 @@
-//en
-# TravelWebsite
+# English
+## TravelWebsite
 ***My Travel Website project, if implemented; users can explore different destinations around the world and plan their travel
 It is a platform where people can customize and share their travel experiences. The aim of this project is to help travelers create unforgettable memories.
 To help and enable travel enthusiasts to share their experiences.***
@@ -39,10 +39,8 @@ It will be developed and improved to provide travel enthusiasts with unforgettab
 
 > The texts in the program are in Turkish.
 
-
-
-//tr
-# SeyahatSitesi
+# Türkçe
+## SeyahatSitesi
 ***Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelindeki farklı destinasyonları keşfedebileceği, seyahat planlamalarını 
 özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine
 yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.***
