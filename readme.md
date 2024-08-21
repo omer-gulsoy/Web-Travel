@@ -4,7 +4,7 @@ My Travel Website project, if implemented; users can explore different destinati
 It is a platform where people can customize and share their travel experiences. The aim of this project is to help travelers create unforgettable memories.
 To help and enable travel enthusiasts to share their experiences.
 
-General Functions:
+### General Functions:
 
     - Wide Destination Selection: Users can browse the list of places to visit in Asia, Europe, South America, Africa
      can view and choose according to their interests.
@@ -23,7 +23,7 @@ General Functions:
      - Administrator Page: Administrator can see people registered in the system; You can edit travel destinations and travel guides,
      You can view the comments made in the system and make many system customizations.
 
-Programming Languages ​​I Use:
+### Programming Languages ​​I Use:
 
     Frontend:   - HTML
                 - CSS
@@ -33,9 +33,9 @@ Programming Languages ​​I Use:
     Backend:    - C#
 
     Veritabanı: - MS SQL
-
-This project is a web application that aims to make travel planning easier for travelers and enable them to discover new places.
-It will be developed and improved to provide travel enthusiasts with unforgettable experiences.
+    
+    This project is a web application that aims to make travel planning easier for travelers and enable them to discover new places.
+    It will be developed and improved to provide travel enthusiasts with unforgettable experiences.
 
 //tr
 # SeyahatSitesi
@@ -43,7 +43,7 @@ Seyahat Sitesi projem, hayata geçmesi halinde; kullanıcıların dünya genelin
 özelleştirebileceği ve seyahat deneyimlerini paylaşabileceği bir platformdur. Bu projenin amacı, gezginlerin unutulmaz anılar biriktirmelerine
 yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağlamaktır.
 
-# Genel Fonksiyonlar:
+### Genel Fonksiyonlar:
 
     - Geniş Destinasyon Seçimi: Kullanıcılar, Asya, Avrupa, Güney Amerika, Afrika üzerinde gezilecek yerlerin listesini 
     görebilir ve ilgi alanlarına göre seçim yapabilir.
@@ -62,7 +62,7 @@ yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağ
     - Yönetici Sayfası: Yönetici, sisteme kaydolmuş kişileri görebilir; seyahat noktalarını ,seyahat rehberlerini düzenleyebilir, 
     sistemde yapılmış yorumları görüntüleyebilir, birçok sistem özelleştirmelerinde bulunabilir.
     
-# Kullanılan Diller:
+### Kullanılan Diller:
 
     Frontend:   - HTML
                 - CSS
@@ -73,12 +73,12 @@ yardımcı olmak ve seyahat tutkunlarının deneyimlerini paylaşabilmesini sağ
 
     Veritabanı: - MS SQL
 
-Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. 
-Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
+    Bu proje, gezginlerin seyahat planlamalarını kolaylaştırmayı ve yeni yerler keşfetmelerini sağlamayı amaçlayan bir web uygulamasıdır. 
+    Seyahat tutkunlarına unutulmaz deneyimler yaşatmak için geliştirilecek ve iyileştirilecektir.
 
-# Note: The texts in the program are in Turkish.
+    Note: The texts in the program are in Turkish.
 
-# Images of the Project:
+### Images of the Project:
 
 ![1](https://github.com/omer-gulsoy/SeyehatSitesi/assets/139320509/ef27f668-b14e-407e-9bd3-0d1db8394d1e)
 ![2](https://github.com/omer-gulsoy/SeyehatSitesi/assets/139320509/26e30149-a587-41b1-b28b-f01a4b31c131)
